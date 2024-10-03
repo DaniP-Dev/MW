@@ -1,0 +1,14 @@
+[
+    {
+        "usuarioNick": "admin",
+        "clave": "admin",
+        "tipo": "admin",
+        "nombre": "Daniel Perez"
+    },
+    {
+        "usuarioNick": "user",
+        "clave": "user",
+        "tipo": "user",
+        "nombre": "usuario general"
+    }
+]

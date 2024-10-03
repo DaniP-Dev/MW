@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/styloLogin.css">
+</head>
+
+<body>
+    <header>
+        Login
+    </header>
+
+    <nav>
+        <button onclick="ir_HTML()">Inicio</button>
+    </nav>
+
+    <main>
+        <div class="divLogin">
+            <h2>Accede con tu Usuario</h2>
+            <form>
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="Usuario" required><br>
+
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Contraseña"  required><br>
+                
+
+                <label>
+                    <input type="checkbox" name="remember">
+                    Mostrar Contraseña
+                </label><br>
+
+                <button type="submit">.   Login   .</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        Pie de Página
+    </footer>
+
+    <script src="../js/loginJS.js"></script>
+</body>
+
+</html>

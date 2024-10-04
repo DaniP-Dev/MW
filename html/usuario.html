@@ -1,27 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>usuarios</title>
+    <title>USUARIO</title>
     <link rel="stylesheet" href="../css/styloAdmin_User.css">
 </head>
 
-<body onload="initVerificacionSesion('user')">
+<body>
     <header>
         USUARIO GENERAL
     </header>
     <nav>
         <button onclick="ir_HTML()">Inicio</button>
+        <button onclick="cerrarSesion()">Cerrar Sesión</button>
     </nav>
     <main>
-        <h1>USUARIO</h1>
+        
+        <table border="1" cellspacing="0" cellpadding="5">
+            
+            <tr>
+                <td>&nbsp;</td>
+                <td>Knocky</td>
+                <td>Flor</td>
+                <td>Ella</td>
+                <td>Juan</td>
+            </tr>
+            <tr>
+                <td>Raza</td>
+                <td>Jack Russell</td>
+                <td>Caniche</td>
+                <td>Perro callejero</td>
+                <td>Cocker Spaniel</td>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>16</td>
+                <td>9</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Propietario</td>
+                <td>Suegra</td>
+                <td>Yo</td>
+                <td>Yo</td>
+                <td>Cuñada</td>
+            </tr>
+            <tr>
+                <td>Hábitos alimentarios</td>
+                <td>Come las sobras de todos</td>
+                <td>Mordisquea la comida</td>
+                <td>Come en abundancia</td>
+                <td>Come hasta que revienta</td>
+            </tr>
+        </table>
     </main>
     <footer>
         Pie de Página
     </footer>
     <script src="../js/loginJS.js"></script>
+    <script src="../js/adminUser.js"></script>
 </body>
 
 </html>

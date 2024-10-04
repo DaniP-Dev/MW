@@ -20,20 +20,18 @@
     <main>
         <div class="divLogin">
             <h2>Accede con tu Usuario</h2>
-            <form>
+            <form id="loginForm">
                 <label for="username"></label>
                 <input type="text" id="username" name="username" placeholder="Usuario" required><br>
 
                 <label for="password"></label>
-                <input type="password" id="password" name="password" placeholder="Contraseña"  required><br>
-                
+                <input type="password" id="password" name="password" placeholder="Contraseña" required><br>
 
                 <label>
-                    <input type="checkbox" name="remember">
-                    Mostrar Contraseña
+                    <input type="checkbox" id="mostrarPassword"> Mostrar Contraseña
                 </label><br>
 
-                <button type="submit">.   Login   .</button>
+                <button type="button" onclick="login()">. Login .</button>
             </form>
         </div>
     </main>

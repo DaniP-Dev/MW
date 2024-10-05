@@ -22,7 +22,6 @@ const obtenerDatos = async () => {
         console.error('Error al obtener los datos:', error);
     }
 };
-
 obtenerDatos();
 
 const login = () => {

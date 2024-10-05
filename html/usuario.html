@@ -10,55 +10,38 @@
 
 <body>
     <header>
-        USUARIO GENERAL
+        <h1 id="nombreUsuario">USUARIO GENERAL</h1>
+
     </header>
     <nav>
         <button onclick="ir_HTML()">Inicio</button>
         <button onclick="cerrarSesion()">Cerrar Sesión</button>
     </nav>
     <main>
-        
-        <table border="1" cellspacing="0" cellpadding="5">
-            
-            <tr>
-                <td>&nbsp;</td>
-                <td>Knocky</td>
-                <td>Flor</td>
-                <td>Ella</td>
-                <td>Juan</td>
-            </tr>
-            <tr>
-                <td>Raza</td>
-                <td>Jack Russell</td>
-                <td>Caniche</td>
-                <td>Perro callejero</td>
-                <td>Cocker Spaniel</td>
-            </tr>
-            <tr>
-                <td>Edad</td>
-                <td>16</td>
-                <td>9</td>
-                <td>10</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Propietario</td>
-                <td>Suegra</td>
-                <td>Yo</td>
-                <td>Yo</td>
-                <td>Cuñada</td>
-            </tr>
-            <tr>
-                <td>Hábitos alimentarios</td>
-                <td>Come las sobras de todos</td>
-                <td>Mordisquea la comida</td>
-                <td>Come en abundancia</td>
-                <td>Come hasta que revienta</td>
-            </tr>
-        </table>
+
+        <div class="panelAdmin">
+
+            <div class="tabla">
+                <h2>Usuarios Registrados</h2>
+                <table id="userTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Email</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Los registros se cargarán aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </main>
     <footer>
-        Pie de Página
+        <br>
+        <p>dricardoperez@unibarranquilla.edu.co</p>
     </footer>
     <script src="../js/loginJS.js"></script>
     <script src="../js/adminUser.js"></script>

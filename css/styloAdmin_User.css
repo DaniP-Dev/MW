@@ -65,16 +65,46 @@ main {
     align-items: center;
 }
 
-
-
-main img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.panelAdmin {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
 }
 
-.tabla{
+.registro,
+.tabla {
+    width: 48%;
+    background-color: #E0F7FA;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.table {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+
+
+th {
+    background-color: #445173;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
 }
